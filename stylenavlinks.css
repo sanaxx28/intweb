@@ -116,3 +116,34 @@ nav{
 .body h1{
     font-family: 'Montserrat', sans-serif;
 }
+.container{
+        padding:4% 6%;
+    }
+    .container h1{
+        color:red;
+    }
+      input[type=text], input[type=number], input[type=email] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+      }
+      
+      input[type=text]:focus, input[type=number]:focus,  input[type=email]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+      .btn {
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+      }
+      
+      .btn:hover {
+        opacity: 1;
+      }
