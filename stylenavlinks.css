@@ -51,6 +51,7 @@ nav{
     top: 30%;
     left:90%;
     transform:translate(-50%,-50%);
+    text-align: center;
 }
 .text-box h1{
     font-size:30px;
